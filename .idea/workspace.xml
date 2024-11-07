@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81381277-716b-4ca3-80be-f842788c1734" name="Changes" comment="Version 0.1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layouts/article.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layouts/article.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layouts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layouts/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/logo.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/logo.js" afterDir="false" />
-    </list>
+    <list default="true" id="81381277-716b-4ca3-80be-f842788c1734" name="Changes" comment="Version 0.2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +46,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
+    "prettierjs.PrettierConfiguration.Package": "S:\\git\\danel-homepage\\node_modules\\prettier",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -70,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730992140975</updated>
-      <workItem from="1730992142058" duration="2258000" />
+      <workItem from="1730992142058" duration="2417000" />
     </task>
     <task id="LOCAL-00001" summary="Version 0.1">
       <option name="closed" value="true" />
@@ -80,7 +75,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730993982309</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Version 0.2">
+      <option name="closed" value="true" />
+      <created>1730994488351</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730994488351</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +102,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Version 0.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 0.1" />
+    <MESSAGE value="Version 0.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 0.2" />
   </component>
 </project>

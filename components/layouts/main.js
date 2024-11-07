@@ -8,8 +8,8 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="mrboat's homepage" />
-        <meta name="author" content="mrboat" />
+        <meta name="description" content="Danel Sánchez's homepage" />
+        <meta name="author" content="Danel Sánchez" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <meta name="twitter:title" content="realmrboat" />
@@ -17,11 +17,11 @@ const Main = ({ children, router }) => {
         <meta name="twitter:site" content="@craftzdog" />
         <meta name="twitter:creator" content="@craftzdog" />
         <meta name="twitter:image" content="/card.png" />
-        <meta property="og:site_name" content="mrboat" />
-        <meta name="og:title" content="mrboat" />
+        <meta property="og:site_name" content="Danel Sánchez" />
+        <meta name="og:title" content="Danel Sánchez" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/card.png" />
-        <title>mrboat - Homepage</title>
+        <title>Danel Sánchez - Homepage</title>
       </Head>
 
       <NavBar path={router.asPath} />

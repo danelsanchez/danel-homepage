@@ -33,7 +33,7 @@ const Logo = () => {
           fontWeight="bold"
           ml={3}
         >
-          mrboat
+          Danel Sánchez
         </Text>
       </LogoBox>
 

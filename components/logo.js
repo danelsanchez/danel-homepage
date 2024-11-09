@@ -4,21 +4,31 @@ import FootprintIcon from './icons/footprint'
 import styled from '@emotion/styled'
 
 const LogoBox = styled.span`
-  font-weight: bold;
-  font-size: 18px;
-  display: inline-flex;
-  align-items: center;
-  height: 30px;
-  line-height: 20px;
-  padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    display: inline-flex;
+    align-items: center;
+    height: 50px;
+    line-height: 20px;
+    padding-top: 0px;
+    display: flex;
+    align-items: center;
+    margin-left: 132px;
+    flex-shrink: 0;
 
-  > svg {
-    transition: 200ms ease;
-  }
+    @media screen and (max-width: 768px) {
+        display: fixed;
 
-  &:hover > svg {
-    transform: rotate(20deg);
-  }
+        margin-left: 10%;
+    }
+
+    > svg {
+        transition: 600ms ease;
+    }
+
+    &:hover > svg {
+        transform: rotateY(180deg);
+    }
 `
 
 const Logo = () => {
@@ -33,7 +43,7 @@ const Logo = () => {
           fontWeight="bold"
           ml={3}
         >
-          Danel Sánchez
+          .\danelsanchez
         </Text>
       </LogoBox>
 

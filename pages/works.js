@@ -13,14 +13,16 @@ import thumbFiefTraining from '../public/images/works/hubbleversev2_eyecatch.jpg
 import thumbFreeDBTagger from '../public/images/works/portfolio1.jpg'
 import thumbAmembo from '../public/images/works/portfolio3.jpg'
 import thumbHubbleRing from '../public/images/works/hubblering.jpg'
-
+import thumbNeStudio from '../public/images/works/nestudio_eyecatch.jpg'
+import thumbAtlasSentry from '../public/images/works/atlassentry_eyecatch.jpg'
 
 
 const Works = () => (
   <Layout title="Works">
-    <Container>
+    <Container mt={{ base: 4, md: 4 }}>
+
       <Heading as="h3" fontSize={20} mb={4}>
-        Teams I worked with
+        Freelance Experience
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
@@ -38,8 +40,12 @@ const Works = () => (
         </Section>
         <Section>
           <GridItem id="hubble" title="Hubble Exchange" thumbnail={thumbHubble} href="https://www.hubble.exchange">
-            3D Generalist and Unity Developer.
-            Creation of advertisement and Hubbleverse development.
+            3D Generalist / Unity Developer
+          </GridItem>
+        </Section>
+        <Section>
+          <GridItem id="hubble" title="NE Studio" thumbnail={thumbNeStudio} href="https://nestudiogames.com/">
+            3D Generalist
           </GridItem>
         </Section>
       </SimpleGrid>
@@ -76,6 +82,11 @@ const Works = () => (
         </Section>
         <Section delay={0.3}>
           <WorkGridItem id="hubbleverse" thumbnail={thumbHubbleverse} title="Hubbleverse">
+            A VRChat Metaverse experience for community engagement
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.3}>
+          <WorkGridItem id="atlassentry" thumbnail={thumbAtlasSentry} title="Atlas Sentry">
             A VRChat Metaverse experience for community engagement
           </WorkGridItem>
         </Section>

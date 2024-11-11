@@ -67,17 +67,7 @@ const Home = () => (
           <br /><br />
           On this page, you can find information about my career as well as some of my most notable works!
         </Paragraph>
-        <Box align="center" my={4}>
-          <Button
-            as={NextLink}
-            href="/works"
-            scroll={false}
-            rightIcon={<ChevronRightIcon />}
-            colorScheme="teal"
-          >
-            My Career
-          </Button>
-        </Box>
+
         <Box align="center" my={4}>
           <Button
             as={NextLink}
@@ -89,11 +79,7 @@ const Home = () => (
             My portfolio
           </Button>
         </Box>
-        <Heading as="h3" variant="section-title">
-          Work
-        </Heading>
       </Section>
-
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">

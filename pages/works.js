@@ -87,7 +87,7 @@ const Works = () => (
         </Section>
         <Section delay={0.3}>
           <WorkGridItem id="atlassentry" thumbnail={thumbAtlasSentry} title="Atlas Sentry">
-            A VRChat Metaverse experience for community engagement
+            A wave defense space game for Android
           </WorkGridItem>
         </Section>
       </SimpleGrid>

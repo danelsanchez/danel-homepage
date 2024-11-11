@@ -81,48 +81,9 @@ const Home = () => (
         </Box>
       </Section>
 
-      <Section delay={0.3}>
-        <Heading as="h3" variant="section-title">
-          On the web
-        </Heading>
-        <List>
-          <ListItem>
-            <Link href="https://t.me/mrboat" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoWhatsapp />}
-              >
-                @mrboat
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https:discord.com/users/266765432336154624" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoDiscord />}
-              >
-                @realmrboat
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://twitter.com/realmrboat" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
-              >
-                @realmrboat
-              </Button>
-            </Link>
-          </ListItem>
-        </List>
 
 
-      </Section>
+
     </Container>
   </Layout>
 )

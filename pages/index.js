@@ -9,7 +9,7 @@ import {
   List,
   ListItem,
   useColorModeValue,
-  SimpleGrid, Grid, Divider, Center
+  SimpleGrid, Grid, Divider, Center, Badge
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
@@ -27,6 +27,8 @@ import thumbNeStudio from '../public/images/works/nestudio_eyecatch.jpg'
 
 const Home = () => (
   <Layout>
+    <Center my={3}><Badge>Website currently under construction</Badge></Center>
+
     <Container>
       <Flex
         direction={{ base: 'column', md: 'row' }}
@@ -114,16 +116,14 @@ const Home = () => (
       <SimpleGrid columns={[1, 1, 3]} gap={2.5}>
 
         <Section>
-          <GridItem
+          <WorkGridItem
             id="fief"
             title="Fief Finance"
             thumbnail={thumbFief}
-            href="https://fief.gg"
           >
             Head of 3D &  <br />
             Technical Artist
-
-          </GridItem>
+          </WorkGridItem>
         </Section>
         <Section>
           <GridItem id="hubble" title="Hubble Exchange" thumbnail={thumbHubble} href="https://www.hubble.exchange">

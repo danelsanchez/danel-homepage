@@ -16,11 +16,11 @@ import P from '../../components/paragraph'
 
 const Work = () => (
   <Layout title="Fiefverse Hex Land">
-    <Container>
-      <Title>
+    <Container my={2}>
+      <Heading as="h3" fontSize={22} mb={3}>
         Fiefverse Hex Land <Badge>2023</Badge>
-      </Title>
-      <Center my={6}>
+      </Heading>
+      <Center my={3}>
       <Box borderRadius="lg" overflow="hidden">
         <video controls width="100%" style={{ maxWidth: '640px' }} autoPlay loop>
           <source src="/images/works/WorldBuilder.mp4" type="video/webm" />
@@ -78,16 +78,16 @@ const Work = () => (
         </video>
       </Box>
       </Center>
-      <WorkImage src="/images/works/fiefhex4.png" alt="Website" />
+      <WorkImage src="/images/works/fiefhex4.webp" alt="Website" />
 
-      <WorkImage src="/images/works/fiefhex2.png" alt="Website" />
+      <WorkImage src="/images/works/fiefhex2.webp" alt="Website" />
       <Center my={6}>
       <Box borderRadius="lg" overflow="hidden">
         <video controls width="100%" style={{ maxWidth: '640px' }} autoPlay loop>
           <source src="/images/works/fiefhexland.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        Disclaimer: Not my video. Posted for project showcase purposes.
+        <Center><Badge>Disclaimer: Not my video. Posted for project showcase purposes.</Badge></Center>
       </Box>
       </Center>
     </Container>

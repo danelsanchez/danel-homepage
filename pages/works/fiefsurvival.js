@@ -5,25 +5,30 @@ import {
   ListItem,
   UnorderedList,
   Center,
-  Box
+  Box, Heading
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
+import { PiTextAlignJustifyDuotone } from 'react-icons/pi'
+import { BiAlignJustify } from 'react-icons/bi'
+import { BsJustify } from 'react-icons/bs'
+import { CgFormatJustify } from 'react-icons/cg'
 
 const Work = () => (
   <Layout title="Fief Survival">
-    <Container>
-      <Title>
+    <Container my={2}>
+      <Heading as="h3" fontSize={22} mb={3}>
         Fief Survival <Badge>2022-2023</Badge>
-      </Title>
-      <Center my={6}>
+      </Heading>
+      <Center my={3}>
       <Box borderRadius="lg" overflow="hidden">
         <video controls width="100%" style={{ maxWidth: '640px' }} autoPlay loop>
           <source src="/images/works/fiefsurvivalvideo.webm" type="video/webm" />
           Your browser does not support the video tag.
         </video>
-        Disclaimer: Not my video. Posted for project showcase purposes.
+        <Center><Badge>Disclaimer: Not my video. Posted for project showcase purposes.</Badge></Center>
+
       </Box>
       </Center>
       <P>
@@ -54,10 +59,10 @@ const Work = () => (
         </video>
       </Box>
       </Center>
-      <WorkImage src="/images/works/fiefsurvival1.png" alt="Website" />
-      <WorkImage src="/images/works/fiefsurvival2.png" alt="Website" />
-      <WorkImage src="/images/works/fiefsurvival3.png" alt="Website" />
-      <WorkImage src="/images/works/fieftraining_eyecatch.png" alt="Website" />
+      <WorkImage src="/images/works/fiefsurvival1.webp" alt="Website" />
+      <WorkImage src="/images/works/fiefsurvival2.webp" alt="Website" />
+      <WorkImage src="/images/works/fiefsurvival3.webp" alt="Website" />
+      <WorkImage src="/images/works/fieftraining_eyecatch.webp" alt="Website" />
 
     </Container>
   </Layout>

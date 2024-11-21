@@ -15,9 +15,8 @@ import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="Creativitic">
-    <br />
-    <Container>
+  <Layout title="XPERI / Tobii">
+    <Container my={2}>
       <Title>
         XPERI / Tobii <Badge>2019-2024</Badge>
       </Title>

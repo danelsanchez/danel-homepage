@@ -36,7 +36,6 @@ const Works = () => (
           >
             Head of 3D &  <br />
             Technical Artist
-            
           </GridItem>
         </Section>
         <Section>
@@ -52,7 +51,6 @@ const Works = () => (
       </SimpleGrid>
 
       <Section delay={0.2}>
-
         <Heading as="h3" fontSize={20} mb={4}>
           Projects
         </Heading>
@@ -73,8 +71,6 @@ const Works = () => (
             Wave Survival Action Game
           </WorkGridItem>
         </Section>
-        
-        
         <Section delay={0.3}>
           <WorkGridItem id="hubbleversev2" thumbnail={thumbFiefTraining} title="Hubbleverse V2">
             Web Based Iteration of Hubbleverse

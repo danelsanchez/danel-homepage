@@ -17,10 +17,13 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Image from 'next/image'
 
-import { WorkGridItem } from '../components/grid-item'
+import { GridItem, WorkGridItem } from '../components/grid-item'
 import thumbCreativitic from '../public/images/works/creativitic_eyecatch.jpg'
 import thumbXPERI from '../public/images/works/xperi_eyecatch.jpg'
 import thumbInnovae from '../public/images/works/innovae_eyecatch.jpg'
+import thumbFief from '../public/images/works/fief_eyecatch.png'
+import thumbHubble from '../public/images/works/hubble_eyecatch.png'
+import thumbNeStudio from '../public/images/works/nestudio_eyecatch.jpg'
 
 const Home = () => (
   <Layout>
@@ -103,6 +106,37 @@ const Home = () => (
           </WorkGridItem>
         </Section>
       </SimpleGrid>
+
+      <Heading as="h3" fontSize={20} mb={4}>
+        My clients
+      </Heading>
+
+      <SimpleGrid columns={[1, 1, 3]} gap={2.5}>
+
+        <Section>
+          <GridItem
+            id="fief"
+            title="Fief Finance"
+            thumbnail={thumbFief}
+            href="https://fief.gg"
+          >
+            Head of 3D &  <br />
+            Technical Artist
+
+          </GridItem>
+        </Section>
+        <Section>
+          <GridItem id="hubble" title="Hubble Exchange" thumbnail={thumbHubble} href="https://www.hubble.exchange">
+            Technical Artist
+          </GridItem>
+        </Section>
+        <Section>
+          <GridItem id="hubble" title="NE Studio" thumbnail={thumbNeStudio} href="https://nestudiogames.com/">
+            3D Generalist
+          </GridItem>
+        </Section>
+      </SimpleGrid>
+
       <Box align="center" my={4}>
         <Button
           as={NextLink}

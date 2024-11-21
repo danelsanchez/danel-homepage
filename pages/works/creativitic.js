@@ -55,10 +55,19 @@ const Work = () => (
           </span>
         </ListItem>
         <ListItem>
-          <Meta>URL</Meta>
+          <Meta>App</Meta>
           <Link href="https://play.google.com/store/apps/dev?id=9132583562263666868">
             MetAClass Augmented Reality XR <ExternalLinkIcon mx="2px" />
           </Link>
+        </ListItem>
+        <ListItem>
+          <Meta>URL</Meta>
+          <span>
+            <Link href="https://www.creativitic.es/">
+            Company Website
+            <ExternalLinkIcon mx="2px" />
+          </Link>
+          </span>
         </ListItem>
       </List>
       <Heading as="h4" fontSize={16} my={6}>

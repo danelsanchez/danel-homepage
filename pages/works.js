@@ -7,7 +7,7 @@ import { GridItem } from '../components/grid-item'
 import thumbHubble from '../public/images/works/hubble_eyecatch.png'
 import thumbFief from '../public/images/works/fief_eyecatch.png'
 import thumbSurvival from '../public/images/works/survival_eyecatch.png'
-import thumbHubbleverse from '../public/images/works/hubbleverse_eyecatch.png'
+import thumbHubbleverse from '../public/images/works/hubbleverse_eyecatch.webp'
 import thumbFiefHex from '../public/images/works/fiefhex_eyecatch.png'
 import thumbFiefTraining from '../public/images/works/hubbleversev2_eyecatch.jpg'
 import thumbFreeDBTagger from '../public/images/works/portfolio1.jpg'
@@ -22,11 +22,11 @@ const Works = () => (
     <Container mt={{ base: 4, md: 4 }}>
 
       <Heading as="h3" fontSize={20} mb={4}>
-        Freelance Experience
+        My clients
       </Heading>
 
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        
+      <SimpleGrid columns={[1, 1, 3]} gap={2.5}>
+
         <Section>
           <GridItem
             id="fief"
@@ -34,13 +34,14 @@ const Works = () => (
             thumbnail={thumbFief}
             href="https://fief.gg"
           >
-            Head of 3D, Technical Artist
+            Head of 3D &  <br />
+            Technical Artist
             
           </GridItem>
         </Section>
         <Section>
           <GridItem id="hubble" title="Hubble Exchange" thumbnail={thumbHubble} href="https://www.hubble.exchange">
-            3D Generalist / Unity Developer
+            Technical Artist
           </GridItem>
         </Section>
         <Section>
@@ -51,49 +52,47 @@ const Works = () => (
       </SimpleGrid>
 
       <Section delay={0.2}>
-        <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
           Projects
         </Heading>
       </Section>
 
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      <SimpleGrid columns={[1, 1, 2]} gap={5}>
       <Section delay={0.3}>
           <WorkGridItem
             id="fiefhex"
             thumbnail={thumbFiefHex}
             title="Fiefverse Hex Land"
           >
-            Primary game title of the Fiefverse that allows players to take control of their own Avatar or Hex land to earn real-world rewards
+            Online Web Based 4X Game
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
           <WorkGridItem id="fiefsurvival" thumbnail={thumbSurvival} title="Fief Survival">
-            A third-person wave survival action game only for brave players
+            Wave Survival Action Game
           </WorkGridItem>
         </Section>
         
         
         <Section delay={0.3}>
           <WorkGridItem id="hubbleversev2" thumbnail={thumbFiefTraining} title="Hubbleverse V2">
-            A second web based iteration of Hubbleverse
+            Web Based Iteration of Hubbleverse
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
           <WorkGridItem id="hubbleverse" thumbnail={thumbHubbleverse} title="Hubbleverse">
-            A VRChat Metaverse experience for community engagement
+            VRChat Metaverse
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
           <WorkGridItem id="atlassentry" thumbnail={thumbAtlasSentry} title="Atlas Sentry">
-            A wave defense space game for Android
+            Wave Defense Game for Android
           </WorkGridItem>
         </Section>
       </SimpleGrid>
 
       <Section delay={0.4}>
-        <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
           Work pieces

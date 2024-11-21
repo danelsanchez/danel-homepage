@@ -51,6 +51,15 @@ const Work = () => (
             Unity / Maya / ZBrush
           </span>
         </ListItem>
+        <ListItem>
+          <Meta>URL</Meta>
+          <span>
+            <Link href="https://www.innovae.com/">
+            Company Website
+            <ExternalLinkIcon mx="2px" />
+          </Link>
+          </span>
+        </ListItem>
       </List>
       <Heading as="h4" fontSize={16} my={6}>
         Public Projects Coverage

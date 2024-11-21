@@ -6,6 +6,7 @@ import { GridItem } from '../components/grid-item'
 
 import thumbCreativitic from '../public/images/works/creativitic_eyecatch.jpg'
 import thumbXPERI from '../public/images/works/xperi_eyecatch.jpg'
+import thumbInnovae from '../public/images/works/innovae_eyecatch.jpg'
 import thumbSurvival from '../public/images/works/survival_eyecatch.png'
 import thumbHubbleverse from '../public/images/works/hubbleverse_eyecatch.png'
 import thumbFiefHex from '../public/images/works/fiefhex_eyecatch.png'
@@ -13,7 +14,7 @@ import thumbFiefTraining from '../public/images/works/hubbleversev2_eyecatch.jpg
 import thumbFreeDBTagger from '../public/images/works/portfolio1.jpg'
 import thumbAmembo from '../public/images/works/portfolio3.jpg'
 import thumbHubbleRing from '../public/images/works/hubblering.jpg'
-import thumbInnovae from '../public/images/works/innovae_eyecatch.jpg'
+
 import thumbAtlasSentry from '../public/images/works/atlassentry_eyecatch.jpg'
 
 
@@ -25,7 +26,7 @@ const Works = () => (
         My Career
       </Heading>
 
-      <SimpleGrid columns={[1, 1, 1]} gap={6}>
+      <SimpleGrid columns={[1, 1, 2]} gap={2}>
         
         <Section>
           <WorkGridItem

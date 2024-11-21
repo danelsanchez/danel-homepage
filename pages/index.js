@@ -8,17 +8,21 @@ import {
   Button,
   List,
   ListItem,
-  useColorModeValue
+  useColorModeValue,
+  SimpleGrid, Grid, Divider, Center
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { IoLogoTwitter, IoLogoDiscord, IoLogoWhatsapp } from 'react-icons/io5'
 import Image from 'next/image'
 
-const Home = () => (
+import { WorkGridItem } from '../components/grid-item'
+import thumbCreativitic from '../public/images/works/creativitic_eyecatch.jpg'
+import thumbXPERI from '../public/images/works/xperi_eyecatch.jpg'
+import thumbInnovae from '../public/images/works/innovae_eyecatch.jpg'
 
+const Home = () => (
   <Layout>
     <Container>
       <Flex
@@ -57,33 +61,59 @@ const Home = () => (
         </Box>
       </Flex>
 
-
       <Section delay={0.1}>
-
         <Paragraph>
-          As a Technical Artist I represent the bridge between digital artists and software engineers, a bridge required for the functionality of visual applications or game development projects.
-          <br /><br />
-          While I have a wide set of skills, from game logic development to 3D animation, I specialize in pipeline design and tooling development for DCC applications and game engines.
-          <br /><br />
-          On this page, you can find information about my career as well as some of my most notable works!
+          As a Technical Artist, I serve as the crucial link between digital
+          artists and software engineers, ensuring smooth implementation and
+          optimization of visual assets in games and applications. <br />
+          <br />
+          While my expertise spans game logic development and 3D animation, I
+          specialize in pipeline optimization and custom tool development for
+          DCC applications like Maya or Blender and game engines like Unity.{' '}
+          <br />
+          <br />
+          Here's where I share highlights from my career path and feature
+          some of my favorite freelance projects.
         </Paragraph>
 
-        <Box align="center" my={4}>
-          <Button
-            as={NextLink}
-            href="/works"
-            scroll={false}
-            rightIcon={<ChevronRightIcon />}
-            colorScheme="teal"
-          >
-            My portfolio
-          </Button>
-        </Box>
+
       </Section>
+      <Heading as="h3" fontSize={20} mb={4}>
+        My Career
+      </Heading>
 
-
-
-
+      <SimpleGrid columns={[1, 1, 3]} gap={2}>
+        <Section>
+          <WorkGridItem id="xperi" thumbnail={thumbXPERI} title="XPERI / Tobii">
+            Synthetic Data Generation for Automotive and ML
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem id="innovae" thumbnail={thumbInnovae} title="Innovae">
+            VR Experiences Development for High-Risk Industrial Positions
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem
+            id="creativitic"
+            thumbnail={thumbCreativitic}
+            title="CreativiTIC"
+          >
+            Augmented Reality Content Creation
+          </WorkGridItem>
+        </Section>
+      </SimpleGrid>
+      <Box align="center" my={4}>
+        <Button
+          as={NextLink}
+          href="/works"
+          scroll={false}
+          rightIcon={<ChevronRightIcon />}
+          colorScheme="teal"
+        >
+          My portfolio
+        </Button>
+      </Box>
     </Container>
   </Layout>
 )

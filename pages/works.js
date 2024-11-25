@@ -107,14 +107,7 @@ const Works = () => (
         </Box>
         </Center>
       </Section>
-      <Section delay={0.5}>
-          <Box borderRadius="lg" overflow="hidden">
-            <video controls width="100%" style={{ maxWidth: '640px' }} autoPlay loop>
-              <source src="/images/works/hubble2.mp4" type="video/webm" />
-              Your browser does not support the video tag.
-            </video>
-          </Box>
-        </Section>
+
       </Grid>
 
       <Grid templateColumns="1.15fr 2fr" gap={3} maxBlockSize={345}>
@@ -139,10 +132,10 @@ const Works = () => (
           </Section>
       </Grid>
       <Grid templateColumns="1.135fr 2fr" gap={3} maxBlockSize={183}>
-        <Section delay={0.6}>
+        <Section>
             <Box borderRadius="lg" overflow="hidden">
               <video controls width="100%" style={{ maxWidth: '640px' }} autoPlay loop>
-                <source src="/images/works/Hubble_Milkyway.mp4" type="video/webm" />
+                <source src="/images/works/Hubble_Milkyway.webm" type="video/webm" />
                 Your browser does not support the video tag.
               </video>
             </Box>

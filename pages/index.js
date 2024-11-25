@@ -17,13 +17,14 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Image from 'next/image'
 
-import { GridItem, WorkGridItem } from '../components/grid-item'
-import thumbCreativitic from '../public/images/works/creativitic_eyecatch.jpg'
-import thumbXPERI from '../public/images/works/xperi_eyecatch.jpg'
-import thumbInnovae from '../public/images/works/innovae_eyecatch.jpg'
-import thumbFief from '../public/images/works/fief_eyecatch.png'
-import thumbHubble from '../public/images/works/hubble_eyecatch.png'
-import thumbNeStudio from '../public/images/works/nestudio_eyecatch.jpg'
+import { GridItem, CompanyGridItem } from '../components/grid-item'
+import thumbCreativitic from '../public/images/works/creativitic_eyecatch.webp'
+import thumbXPERI from '../public/images/works/xperi_eyecatch.webp'
+import thumbInnovae from '../public/images/works/innovae_eyecatch.webp'
+import thumbFief from '../public/images/works/fief_eyecatch.webp'
+import thumbHubble from '../public/images/works/hubble_eyecatch.webp'
+import thumbNeStudio from '../public/images/works/nestudio_eyecatch.webp'
+import thumbTranscend from '../public/images/works/transcend_eyectach.webp'
 
 const Home = () => (
   <Layout>
@@ -89,23 +90,23 @@ const Home = () => (
 
       <SimpleGrid columns={[1, 1, 3]} gap={2}>
         <Section>
-          <WorkGridItem id="xperi" thumbnail={thumbXPERI} title="XPERI / Tobii">
+          <CompanyGridItem id="xperi" thumbnail={thumbXPERI} title="XPERI / Tobii">
             Synthetic Data Generation for Automotive and ML
-          </WorkGridItem>
+          </CompanyGridItem>
         </Section>
         <Section>
-          <WorkGridItem id="innovae" thumbnail={thumbInnovae} title="Innovae">
+          <CompanyGridItem id="innovae" thumbnail={thumbInnovae} title="Innovae">
             VR Experiences Development for High-Risk Industrial Positions
-          </WorkGridItem>
+          </CompanyGridItem>
         </Section>
         <Section>
-          <WorkGridItem
+          <CompanyGridItem
             id="creativitic"
             thumbnail={thumbCreativitic}
             title="CreativiTIC"
           >
             Augmented Reality Content Creation
-          </WorkGridItem>
+          </CompanyGridItem>
         </Section>
       </SimpleGrid>
 
@@ -114,21 +115,33 @@ const Home = () => (
       </Heading>
 
       <SimpleGrid columns={[1, 1, 3]} gap={2.5}>
-
         <Section>
-          <WorkGridItem
+          <CompanyGridItem
+            id="transcend"
+            title="Transcend"
+            thumbnail={thumbTranscend}
+          >
+            Technical Artist
+          </CompanyGridItem>
+        </Section>
+        <Section>
+          <CompanyGridItem
             id="fief"
-            title="Fief Finance"
+            title="Fief"
             thumbnail={thumbFief}
           >
             Head of 3D &  <br />
             Technical Artist
-          </WorkGridItem>
+          </CompanyGridItem>
         </Section>
         <Section>
-          <GridItem id="hubble" title="Hubble Exchange" thumbnail={thumbHubble} href="https://www.hubble.exchange">
+          <CompanyGridItem
+            id="hubble"
+            title="Hubble Exchange"
+            thumbnail={thumbHubble}
+          >
             Technical Artist
-          </GridItem>
+          </CompanyGridItem>
         </Section>
         <Section>
           <GridItem id="hubble" title="NE Studio" thumbnail={thumbNeStudio} href="https://nestudiogames.com/">

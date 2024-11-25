@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81381277-716b-4ca3-80be-f842788c1734" name="Changes" comment="Version 0.44" />
+    <list default="true" id="81381277-716b-4ca3-80be-f842788c1734" name="Changes" comment="Version 0.45">
+      <change afterPath="$PROJECT_DIR$/pages/companies/transcend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/works/transcend_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/works/works.rar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/companies/fief.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/companies/fief.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/works/fiefsurvival.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/works/fiefsurvival.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/works/FitR8hnVQAA9Bcf.png" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +61,7 @@
     "WebServerToolWindowPanel.toolwindow.show.date": "false",
     "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
     "WebServerToolWindowPanel.toolwindow.show.size": "false",
-    "git-widget-placeholder": "Cherry-picking in master",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "S:/git/danel-homepage/pages/companies",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -203,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732315188160</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Version 0.44">
+      <option name="closed" value="true" />
+      <created>1732566259764</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1732566259764</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +248,7 @@
     <MESSAGE value="Version 0.42" />
     <MESSAGE value="Version 0.43" />
     <MESSAGE value="Version 0.44" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 0.44" />
+    <MESSAGE value="Version 0.45" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 0.45" />
   </component>
 </project>

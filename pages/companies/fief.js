@@ -7,7 +7,7 @@ import {
   UnorderedList,
   Heading,
   Center,
-  Box, SimpleGrid, Button
+  Box, SimpleGrid, Button, Image, Grid
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { ChevronLeftIcon, ExternalLinkIcon } from '@chakra-ui/icons'
@@ -90,6 +90,30 @@ const Work = () => (
           </WorkGridItem>
         </Section>
       </SimpleGrid>
+      <Section>
+        <Heading as="h3" fontSize={20} mb={4}>
+          Creative Ventures
+        </Heading>
+      </Section>
+      <Section>
+        <Box borderRadius="lg" overflow="hidden" my={2}>
+          <Image borderRadius="lg" w="full" src="/images/works/fiefverse_1.png" alt="Hubble Ring Promo" />
+        </Box>
+        <Box borderRadius="lg" overflow="hidden" my={2}>
+          <Image borderRadius="lg" w="full" src="/images/works/fief_3.jpeg" alt="Hubble Ring Promo" />
+        </Box>
+        <Box borderRadius="lg" overflow="hidden" my={2}>
+          <Image borderRadius="lg" w="full" src="/images/works/fiefhex_users.jpeg" alt="Hubble Ring Promo" />
+        </Box>
+        <Box borderRadius="lg" overflow="hidden" my={2}>
+          <Image borderRadius="lg" w="full" src="/images/works/fiefsurvival4.jpeg" alt="Hubble Ring Promo" />
+        </Box>
+        <Box borderRadius="lg" overflow="hidden" my={2}>
+          <Image borderRadius="lg" w="full" src="/images/works/fiefhex_spiders.jpeg" alt="Hubble Ring Promo" />
+        </Box>
+
+
+      </Section>
     </Container>
   </Layout>
 )

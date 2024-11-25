@@ -111,7 +111,7 @@ const Home = () => (
       </SimpleGrid>
 
       <Heading as="h3" fontSize={20} mb={4}>
-        My clients
+        My Clients
       </Heading>
 
       <SimpleGrid columns={[1, 1, 3]} gap={2.5}>

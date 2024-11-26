@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81381277-716b-4ca3-80be-f842788c1734" name="Changes" comment="Version 0.46">
+    <list default="true" id="81381277-716b-4ca3-80be-f842788c1734" name="Changes" comment="Version 0.47">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layouts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layouts/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +117,7 @@
       <workItem from="1732218603288" duration="8656000" />
       <workItem from="1732311602453" duration="1875000" />
       <workItem from="1732550796413" duration="11451000" />
-      <workItem from="1732628587200" duration="42000" />
+      <workItem from="1732628587200" duration="1713000" />
     </task>
     <task id="LOCAL-00001" summary="Version 0.1">
       <option name="closed" value="true" />
@@ -232,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732626809806</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Version 0.47">
+      <option name="closed" value="true" />
+      <created>1732629197288</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1732629197288</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +269,7 @@
     <MESSAGE value="Version 0.44" />
     <MESSAGE value="Version 0.45" />
     <MESSAGE value="Version 0.46" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 0.46" />
+    <MESSAGE value="Version 0.47" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 0.47" />
   </component>
 </project>

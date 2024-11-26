@@ -7,30 +7,52 @@ import {
   UnorderedList,
   Heading,
   Center,
-  Box
+  Box, Button
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
-import { ExternalLinkIcon } from '@chakra-ui/icons'
+import { ChevronLeftIcon, ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
+import NextLink from 'next/link'
 
 const Work = () => (
-  <Layout title="Creativitic">
-    <br />
-    <Container>
-      <Title>
-        Innovae <Badge>2018</Badge>
-      </Title>
+  <Layout title="Innovae">
+
+    <Container my={2.5}>
+      <section>
+        <Box
+          display="flex"
+          justifyContent="space-between"
+          alignItems="center"
+          my={0}
+        >
+          <Heading as="h3" fontSize={22} mb={2}>
+            Innovae <Badge>2018</Badge>
+          </Heading>
+          <Button
+            mb={3}
+            as={NextLink}
+            href="/"
+            scroll={false}
+            colorScheme="teal"
+            size="sm"
+            leftIcon={<ChevronLeftIcon />}
+          >
+            Main
+          </Button>
+        </Box>
+      </section>
       <WorkImage src="/images/works/innovae_eyecatch.jpg" alt="Company Logo" />
       <P>
         Innovae is a company specialized in VR and AR solutions.
         During my time working with them I mainly focused on creating VR experiences in Unity.<br />
-        </P>
-        <UnorderedList ml={4} my={4}>
-          <ListItem>Developed VR interactive experiences for industrial and educational applications.</ListItem>
-          <ListItem>Coordinated between artistic teams and programming departments.</ListItem>
-          <ListItem>Led a VR Formative Working Training. Administered artistic tasks and supervised results were in sync with the projects needs.</ListItem>
-        </UnorderedList>
+      </P>
+      <UnorderedList ml={4} my={4}>
+        <ListItem>Developed VR interactive experiences for industrial and educational applications.</ListItem>
+        <ListItem>Coordinated between artistic teams and programming departments.</ListItem>
+        <ListItem>Led a VR Formative Working Training. Administered artistic tasks and supervised results were in sync
+          with the projects needs.</ListItem>
+      </UnorderedList>
 
       <List ml={4} my={4}>
         <ListItem>

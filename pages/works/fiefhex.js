@@ -96,7 +96,6 @@ const Work = () => (
         </Box>
       </Center>
       <WorkImage src="/images/works/fiefhex4.webp" alt="Website" />
-      <WorkImage src="/images/works/fiefhex_spiders.jpeg" alt="Website" />
       <WorkImage src="/images/works/fiefhex2.webp" alt="Website" />
       <Center my={6}>
         <Box borderRadius="lg" overflow="hidden">

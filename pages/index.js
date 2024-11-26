@@ -28,8 +28,6 @@ import thumbTranscend from '../public/images/works/transcend_eyectach.webp'
 
 const Home = () => (
   <Layout>
-    <Center my={3}><Badge>Website currently under construction</Badge></Center>
-
     <Container>
       <Flex
         direction={{ base: 'column', md: 'row' }}
@@ -96,7 +94,7 @@ const Home = () => (
         </Section>
         <Section>
           <CompanyGridItem id="innovae" thumbnail={thumbInnovae} title="Innovae">
-            VR Experiences Development for High-Risk Industrial Positions
+            VR Development for High-Risk Industrial Positions
           </CompanyGridItem>
         </Section>
         <Section>
@@ -114,7 +112,7 @@ const Home = () => (
         My Clients
       </Heading>
 
-      <SimpleGrid columns={[1, 1, 3]} gap={2.5}>
+      <SimpleGrid columns={[1, 1, 3]} gap={2}>
         <Section>
           <CompanyGridItem
             id="transcend"
@@ -144,23 +142,14 @@ const Home = () => (
           </CompanyGridItem>
         </Section>
         <Section>
-          <GridItem id="hubble" title="NE Studio" thumbnail={thumbNeStudio} href="https://nestudiogames.com/">
+          <CompanyGridItem id="nestudio" title="NE Studio" thumbnail={thumbNeStudio}>
             3D Generalist
-          </GridItem>
+          </CompanyGridItem>
         </Section>
+
       </SimpleGrid>
 
-      <Box align="center" my={4}>
-        <Button
-          as={NextLink}
-          href="/works"
-          scroll={false}
-          rightIcon={<ChevronRightIcon />}
-          colorScheme="teal"
-        >
-          My portfolio
-        </Button>
-      </Box>
+
     </Container>
   </Layout>
 )

@@ -28,7 +28,14 @@ export const WorkGridItem = ({
   title,
   thumbnail
 }) => (
-  <Box w="100%" textAlign="center">
+  <Box
+    w="100%"
+    textAlign="center"
+    transition="transform 0.2s"
+    _hover={{
+      transform: 'scale(1.05)',
+    }}
+  >
     <LinkBox
       as={NextLink}
       href={`/${category}/${id}`}
@@ -42,11 +49,11 @@ export const WorkGridItem = ({
         placeholder="blur"
       />
       <LinkOverlay as="div" href={`/${category}/${id}`}>
-        <Text mt={2} fontSize={20}>
+        <Text mt={1} fontSize={18}>
           {title}
         </Text>
       </LinkOverlay>
-      <Text fontSize={14}>{children}</Text>
+      <Text fontSize={13}>{children}</Text>
     </LinkBox>
   </Box>
 )
@@ -58,7 +65,14 @@ export const CompanyGridItem = ({
                                title,
                                thumbnail
                              }) => (
-  <Box w="100%" textAlign="center">
+  <Box
+    w="100%"
+    textAlign="center"
+    transition="transform 0.2s"
+    _hover={{
+      transform: 'scale(1.04)',
+    }}
+  >
     <LinkBox
       as={NextLink}
       href={`/${category}/${id}`}
@@ -72,11 +86,11 @@ export const CompanyGridItem = ({
         placeholder="blur"
       />
       <LinkOverlay as="div" href={`/${category}/${id}`}>
-        <Text mt={2} fontSize={20}>
+        <Text mt={0} fontSize={19}>
           {title}
         </Text>
       </LinkOverlay>
-      <Text fontSize={14}>{children}</Text>
+      <Text fontSize={13}>{children}</Text>
     </LinkBox>
   </Box>
 )

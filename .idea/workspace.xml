@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81381277-716b-4ca3-80be-f842788c1734" name="Changes" comment="Version 0.45">
-      <change afterPath="$PROJECT_DIR$/pages/companies/transcend.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/works/transcend_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/works/works.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/companies/nestudio.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/works/atlassentry.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/companies/fief.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/companies/fief.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/grid-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/grid-item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/companies/creativitic.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/companies/creativitic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/companies/innovae.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/companies/innovae.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/companies/xperi.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/companies/xperi.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/works/fiefsurvival.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/works/fiefsurvival.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/works/FitR8hnVQAA9Bcf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/works/fiefhex.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/works/fiefhex.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +64,7 @@
     "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
     "WebServerToolWindowPanel.toolwindow.show.size": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "S:/git/danel-homepage/pages/companies",
+    "last_opened_file_path": "S:/git/danel-homepage/pages/works",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -76,12 +78,13 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="S:\git\danel-homepage\pages\companies" />
       <recent name="S:\git\danel-homepage\pages\works" />
+      <recent name="S:\git\danel-homepage\pages\companies" />
       <recent name="S:\git\danel-homepage\pages" />
       <recent name="S:\git\danel-homepage\components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="S:\git\danel-homepage\pages" />
       <recent name="S:\git\danel-homepage\pages\companies" />
       <recent name="S:\git\danel-homepage\pages\clients" />
     </key>
@@ -220,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732566259764</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Version 0.45">
+      <option name="closed" value="true" />
+      <created>1732568377474</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1732568377474</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

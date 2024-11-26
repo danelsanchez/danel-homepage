@@ -7,33 +7,53 @@ import {
   UnorderedList,
   Heading,
   Center,
-  Box
+  Box, Button
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
-import { ExternalLinkIcon } from '@chakra-ui/icons'
+import { ChevronLeftIcon, ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
+import NextLink from 'next/link'
 
 const Work = () => (
   <Layout title="Creativitic">
-    <br />
-    <Container>
-      <Title>
-        CreativiTIC <Badge>2018-2019</Badge>
-      </Title>
+    <Container my={2.5}>
+      <section>
+        <Box
+          display="flex"
+          justifyContent="space-between"
+          alignItems="center"
+          my={0}
+        >
+          <Heading as="h3" fontSize={22} mb={2}>
+            CreativiTIC <Badge>2018-2019</Badge>
+          </Heading>
+          <Button
+            mb={3}
+            as={NextLink}
+            href="/"
+            scroll={false}
+            colorScheme="teal"
+            size="sm"
+            leftIcon={<ChevronLeftIcon />}
+          >
+            Main
+          </Button>
+        </Box>
+      </section>
       <WorkImage src="/images/works/creativitic_eyecatch.jpg" alt="Company Logo" />
       <P>
         CreativiTIC is a company based in Bilbao, Spain.
         During my time working for them I produced educational content with Augmented Reality.<br />
         <br />
         My main duties being:
-        </P>
-        <UnorderedList ml={4} my={4}>
-          <ListItem>Developing AR interactive books for Android using Unity.</ListItem>
-          <ListItem>Contributing to 'MetAClass Augmented Reality XR' educational AR platform.</ListItem>
-          <ListItem>Creating educational content combining AR and traditional learning methods.</ListItem>
-          <ListItem>Performing as a rigger, animator and composer.</ListItem>
-        </UnorderedList>
+      </P>
+      <UnorderedList ml={4} my={4}>
+        <ListItem>Developing AR interactive books for Android using Unity.</ListItem>
+        <ListItem>Contributing to 'MetAClass Augmented Reality XR' educational AR platform.</ListItem>
+        <ListItem>Creating educational content combining AR and traditional learning methods.</ListItem>
+        <ListItem>Performing as a rigger, animator and composer.</ListItem>
+      </UnorderedList>
 
       <List ml={4} my={4}>
         <ListItem>

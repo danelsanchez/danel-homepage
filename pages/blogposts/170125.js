@@ -2,19 +2,14 @@ import {
   Container,
   Badge,
   Link,
-  List,
-  ListItem,
-  UnorderedList,
   Heading,
-  Center,
   Box, Button, Text
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
-import { ChevronLeftIcon, ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, WorkImage, Meta } from '../../components/work'
+import { ChevronLeftIcon } from '@chakra-ui/icons'
+import { WorkImage } from '../../components/work'
 import P from '../../components/paragraph'
 import NextLink from 'next/link'
-import Image from 'next/image'
 
 const Work = () => (
   <Layout title="Are we moving towards a 3D Gaussian Splatting future?">
@@ -104,18 +99,7 @@ const Work = () => (
         retopology, baking and other tweaks.
         <br />
         <br />
-        <Image
-          src="/images/blog/Meshtron.webp"
-          alt="FaceLift"
-          width={500}
-          height={500}
-          className="grid-item-thumbnail"
-          style={{
-            width: '100%',
-            height: '100%',
-            maxWidth: '100%'
-          }}
-        />
+        <WorkImage src="/images/blog/Meshtron.webp" alt="FaceLift" />
         <br />
         With this in mind I can say I really think we're heading towards this
         future where 3D asset and character preparation is going to be

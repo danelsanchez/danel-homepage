@@ -6,12 +6,11 @@ import styled from '@emotion/styled'
 const LogoBox = styled.span`
     font-weight: bold;
     font-size: 18px;
-    display: inline-flex;
+    display: fixed;
     align-items: center;
     height: 50px;
-    line-height: 20px;
+    line-height: 0px;
     padding-top: 0px;
-    display: flex;
     align-items: center;
     margin-left: 132px;
     flex-shrink: 0;

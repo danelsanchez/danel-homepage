@@ -57,7 +57,7 @@ const Navbar = props => {
     >
       <Container
         display="flex"
-        p={2}
+        p={1.5}
         maxW="container.md"
         wrap="wrap"
         align="center"
@@ -74,12 +74,15 @@ const Navbar = props => {
         <Stack
           direction={{ base: 'column', md: 'row' }}
           display={{ base: 'none', md: 'flex' }}
-          width={{ base: 'full', md: 'auto' }}
+          width={{ base: 'full', md: 'flex' }}
           alignItems="center"
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
 
+          <LinkItem href="/blog" path={path}>
+            blog
+          </LinkItem>
           
 
         </Stack>

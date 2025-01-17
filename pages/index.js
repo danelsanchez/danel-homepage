@@ -148,8 +148,6 @@ const Home = () => (
         </Section>
 
       </SimpleGrid>
-
-
     </Container>
   </Layout>
 )

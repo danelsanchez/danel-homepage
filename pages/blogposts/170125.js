@@ -99,7 +99,7 @@ const Work = () => (
         retopology, baking and other tweaks.
         <br />
         <br />
-        <WorkImage src="/images/blog/Meshtron.webp" alt="FaceLift" />
+        <WorkImage src="/images/blog/Mestron.webp" alt="FaceLift" />
         <br />
         With this in mind I can say I really think we're heading towards this
         future where 3D asset and character preparation is going to be
